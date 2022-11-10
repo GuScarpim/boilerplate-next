@@ -14,7 +14,6 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
-- [Storybook](https://storybook.js.org)
 - [GiHub Actions](https://github.com/features/actions)
 - [Docker](https://www.docker.com/)
 - [Snyk](https://github.com/snyk/snyk)
@@ -69,12 +68,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Amazon S3
-
-Automatic deploy to Amazon S3 with pipeline in github actions and workflows.
-
-
-In production (Vercel) https://boilerplate-next-ts-seven.vercel.app
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
