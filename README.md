@@ -1,10 +1,12 @@
-[![ci](https://github.com/juliocarneiro/boilerplate-next-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/juliocarneiro/boilerplate-next-ts/actions/workflows/ci.yml) <img src="https://img.shields.io/github/last-commit/juliocarneiro/boilerplate-next-ts/master"> <img src="https://img.shields.io/snyk/vulnerabilities/github/juliocarneiro/boilerplate-next-ts">
 
-This is a [Next.js](https://nextjs.org/) boilerplate with Typescript and Styled-Components.
 
-## What is inside?
+Isto é um [Next.js](https://nextjs.org/) boilerplate com Typescript e Styled-Components.
+<br>
+This is a Next.js boilerplate with Typescript and Styled-Components.
 
-This project uses lot of stuff as:
+## O que é usado? <br> What is inside?
+
+Este projeto usa as seguintes ferramentas:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
@@ -18,8 +20,10 @@ This project uses lot of stuff as:
 - [Docker](https://www.docker.com/)
 - [Snyk](https://github.com/snyk/snyk)
 
-## Getting Started
+## Começando <br> Getting Started
 
+Primeiro, instale as dependências do snyk e do projeto:
+<br>
 First, install snyk and project dependencies:
 
 ```bash
@@ -30,23 +34,35 @@ yarn global add snyk
 yarn
 ```
 
+Agora, execute o seguinte comando para inicializar o servidor:
+<br>
 Now, run the development server:
 
 ```bash
 yarn dev
 ```
 
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
+<br>
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Você pode começar o seu projeto através do arquivo `pages/index.js`. A página é atualizada automaticamente conforme você edita o arquivo (Uauu).
+<br>
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 <br />
+
+#### Ou inicie o projeto com a imagem do docker
+<br>
+
 #### Or start project with docker image
 
 ```bash
 docker-compose up
 ```
 
-## Commands
+## Comandos <br> Commands
+
+(Não vou traduzir isso aqui não, tá facil de entender)
 
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
@@ -57,8 +73,6 @@ docker-compose up
 - `security`: runs snyk for search vulnerabilities
 - `security-fix`: fix vulnerabilities
 - `protect`: update libs with vulnerabilities
-- `generate`: generate component paste with index, test and styled (ex: `yarn generate Home`)
-- `storybook`: Initialize and watch Storybook
 
 ## Learn More
 
