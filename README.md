@@ -7,6 +7,8 @@ This is a Next.js boilerplate with Typescript and Styled-Components.
 ## O que é usado? <br> What is inside?
 
 Este projeto usa as seguintes ferramentas:
+<br>
+This project uses the following tools:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
