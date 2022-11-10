@@ -7,8 +7,6 @@ This is a Next.js boilerplate with Typescript and Styled-Components.
 ## O que é usado? <br> What is inside?
 
 Este projeto usa as seguintes ferramentas:
-<br>
-This project uses the following tools:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
@@ -53,10 +51,7 @@ Você pode começar o seu projeto através do arquivo `pages/index.js`. A págin
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 <br />
 
-#### Ou inicie o projeto com a imagem do docker
-<br>
-
-#### Or start project with docker image
+#### Ou inicie o projeto com a imagem do docker <br> Or start project with docker image
 
 ```bash
 docker-compose up
